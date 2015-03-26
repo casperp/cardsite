@@ -1,0 +1,138 @@
+<!doctype html>
+<head>
+<title>techstuff</title> 
+<link rel="stylesheet" type="text/css" href="../css/android.css">
+<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<meta charset="UTF-8">
+     <meta name="viewport" content="initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=no; width=device-width" />
+</head>
+<header>
+   <div id="side">
+
+<div id="slide-menu">
+<ul class="navigation">
+
+<li><a href="../html.html">Home</a></li>
+<li><a href="mac_os_x.html">Mac os x</a></li>
+<li><a href="linux.html">Linux</a></li>
+<li><a href="blender.html">Blender</a></li>
+<li><a href="android_studio.html">Android studio</a></li>
+</ul>
+</div>
+
+<div id="openblok">
+
+<div id="push"><a href="#"><img class="img_menu" src="../img/menu.png" alt="knop"></a></div>
+
+</div>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+				$(document).ready(function () {
+				$('#push, #close').click(function () {
+						var $navigacia = $('body, #slide-menu'),
+								val = $navigacia.css('left') === '250px' ? '0px' : '250px';
+						$navigacia.animate({
+								left: val
+						}, 300)
+		
+				});
+		
+		});
+
+	   </script>
+
+
+</div>
+   <div class="pageinfo">
+    Android
+   </div>
+   
+</header>
+<body>
+
+   
+<!--- card 1 --->
+
+<div class="flex-container">
+ <div class="card">
+    <div class="card1"><h1>Xiaomi redmi 2</h1>
+      
+    <img class="imgcard1" src="../img/xiaomi_redmi2.png" height="90" width="100">
+      <p >Xiaomi today announced the Redmi 2, a successor to the Redmi 1S. The smartphone features mid-range specifications and dual-SIM 4G LTE</p>
+     </div>
+    <div class="knop1" onclick="location.href='../tekst/tekst1.html'">
+        Read More 
+        </div>
+ </div>
+  
+ <!--- card 2--->
+ 
+ <div class="card">
+    <div class="card-image image1">
+        <div class="banner"> </div>
+        <a href="../tekst/tekst2.html"><h2>Archos announces Diamond smartphone</h2></a>
+    </div>
+    <p class="card2">Archos has announced the new devices that it will show off next week atCES 2015,
+    led by the Diamond smartphone and the 80b Helium tablet</p>
+    <div class="knop2" onclick="location.href='../tekst/tekst2.html'">
+        Read More 
+        </div>
+</div>
+ 
+ <!--- card 3--->
+ 
+<div class="card ">
+    <h1>E FUN Nextbook Ares series</h1>
+    <p class="card3"> FUN has announced today that it is introducing a set of new tablets to its Nextbook Ares Series. 
+	The Lollipop sporting tablets are set to be shown off at CES 2015 next week.</p>
+    <div class="knop3" onclick="location.href='../tekst/tekst3.html'">
+        Read More 
+        </div>
+</div>
+
+<!--- card 4--->
+
+<div class="card  ">
+<div class="card-image image2">
+     <h2>Alcatel Onetouch announces Pixi 3</h2>
+     </div>
+     <p class="card4">The Pixi 3 series  
+The line is also platform-agnostic, running on Android, Firefox OS, and Windows Phone..</p>
+     <div class="knop4" onclick="location.href='../tekst/tekst4.html'">
+        Read More 
+        </div>
+</div>
+
+<!--- card 5--->
+
+<div class="card fixed-width">
+<h1>Google is giving away 2GB</h1>
+<p class=" card5">Google is giving away 2GB of Drive storage for securing your account</p>
+<div class="knop5" onclick="location.href='../tekst/tekst5.html'">
+        Read More 
+        </div>
+</div>
+
+<!--- card 6--->
+
+<div class="card fixed-width">
+    <div class="card-image image3">
+        <div class="banner"></div>
+            <h2>HTC goes after the Moto G with mid-range Desire 626</h2>
+        </div>
+        <p class="card6">HTC has launched its latest offering aimed at budget buyers, the Desire 626. Now available for purchase in Taiwan.</p>
+        <div class="knop6" onclick="location.href='../tekst/tekst6.html'">
+        Read More 
+        </div>
+</div>
+
+<script type="text/javascript" src="script/ripple.js"></script>
+    
+ <footer>
+    
+ </footer>   
+  </div>
+</body>
+</html>
