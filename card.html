@@ -1,0 +1,103 @@
+<!doctype html>
+<head>
+<title>techstuff</title> 
+<link rel="stylesheet" type="text/css" href="css/card.css">
+<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+
+<meta charset="UTF-8">
+<meta name="viewport" content="initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=no; width=device-width" />
+</head>
+         
+<header>  
+ <div id="side">
+
+<div id="slide-menu">
+<ul class="navigation">
+
+<li><a href="html/android.html">Huizen</a></li>
+<li><a href="html/mac_os_x.html">documenten</a></li>
+<li><a href="html/linux.html">contact</a></li>
+
+</ul>
+</div>
+
+<div id="openblok">
+
+<div id="push"><a href="#"><img class="img_menu" src="img/menu.png" alt="knop"></a></div>
+<div class="where">Advies&CO</div> 
+</div>
+
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+				$(document).ready(function () {
+				$('#push, #close').click(function () {
+						var $navigacia = $('body, #slide-menu'),
+								val = $navigacia.css('left') === '250px' ? '0px' : '250px';
+						$navigacia.animate({
+								left: val
+						}, 300)
+		
+				});
+		
+		});
+
+	   </script>
+
+
+</div>     
+</header>
+    
+<body >
+
+
+
+<!--- card 1 --->
+<div class="leftcolumn">
+ <div class="card" >
+ <div class="card-image  " z="3" >
+        
+        <h1>Info</h1>
+		
+    </div>
+    <center>
+    <br /><p>Ons bedrijf levert de beste kwaliteit die de klanten willen. Ook zijn wij 24/7 bereikbaar voor vragen en advies.</p>
+	</P><p>Wij zijn erg soepel. Wij kunnen voor een redelijke prijs luxe dingen regelen, en voor een goedkope prijs nog steeds goede kwaliteit leveren.</P>
+	</p><img class="img_menu" src="img/LOGO.jpg" alt="knop">
+     </center>
+        </div>
+      </div>
+    
+    
+   
+    
+ </div>
+</div>
+
+ <!--- card 2--->   
+ <div class="card" onclick="location.href='html/android.html'">
+    <div class="card-image  " z="3" >
+        
+        <h1>Adres</h1>
+		
+    </div><center>
+	<br /><p>Email: 120157@ashram.nl</P>
+	<p>Telefoon: 06 1234567</p>
+	<p>1397KL  23  Nederland Alphen aan den Rijn</p>
+    <p><iframe id="preview" src="https://www.google.com/maps/embed/v1/place?q=Ashram%20College%2C%20Marsdiep%2C%20Alphen%20aan%20Den%20Rijn%2C%20Nederland&amp;key=AIzaSyD4iE2xVSpkLLOXoyqT-RuPwURN3ddScAI"></iframe></p>
+    </center>
+</div>
+
+
+<script type="text/javascript" src="script/ripple.js"></script>
+
+</body>
+
+ <footer>
+    
+ </footer>   
+    
+</body>
+</html>
