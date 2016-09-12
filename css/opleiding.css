@@ -1,0 +1,229 @@
+body{
+    background-color: #EEEEEE;
+    margin-top: 50px;
+    margin-left: 0px;
+    font-family: seravek;
+    color: rgb(79,79,79);
+       font-family: Roboto;
+
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background-color: #4caf50;
+    box-shadow: 1px 3px 5px #888888;
+    position: fixed;
+    z-index: 2;
+    margin-top: -50px;
+    word-spacing: 20;
+    padding-left: 10px;
+    font-size: ;
+}
+header .img_menu{
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+
+
+li{
+     display: inline;
+     
+}
+.pageinfo{
+   margin-right: 45%;
+   margin-top: -40px;
+   float: right;
+   font-size: 40px;
+}
+.card {
+    background:#FFF;
+    padding:0px;
+    margin:15px;
+    overflow:hidden;
+    border-radius: 3px;
+    box-shadow: 1px 3px 5px #888888;
+      
+
+}
+.card h1 {
+    margin:0px;
+    padding:10px;
+    padding-bottom:0px;
+    font-size:30px;
+    color: rgb(0,0,0);
+}
+
+.card p {
+    margin:0px;
+    padding:10px;
+}
+.card {
+    float:left;
+    width:420px;  
+    height:390px;
+}
+
+
+.card-image {
+    width:100%;
+    height:200px;
+    padding:0px;
+    margin:0px;
+    background-position:center;
+    background-repeat:no-repeat;
+    position:relative;
+    overflow:hidden;
+}
+
+
+.image1 {
+    background-image: url("../img/Archos.png");
+    height: 170px;
+}
+.image2{
+    background-image: url("../img/onetouch.png");   
+}
+.image3{
+    background-image: url("../img/htc.png");
+}
+.image{
+    
+}
+.card1{ font-size: 25px;}
+.card2{font-size:18px}
+.card3{font-size: 18px}
+.card4{font-size: 18px;}
+.card5{font-size: 18px;}
+.card6{font-size: 18px}
+
+.card-image .banner {
+    height:40px;
+    width:50px;
+    top:0px;
+    right:0px;
+    background-position:top right;
+    background-repeat:no-repeat;
+    background-image:url("");
+    position:absolute;
+    z-index: -1;
+}
+
+.card-image h1, 
+.card-image h2, 
+.card-image h3, 
+.card-image h4, 
+.card-image h5, 
+.card-image h6 {
+    position:absolute;
+    bottom:0px;
+    width:100%;
+    color:white;
+    background:rgba(0,0,0,0.65);
+    margin:0px;
+    padding:6px;
+    border:none;
+}
+.float-left .card {
+    float:left;
+    width:300px;  
+    height:270px;
+}
+.rightColumn,
+.leftColumn {
+    display:inline-block;
+    width:49%;
+    vertical-align:top;
+}
+
+
+
+
+#slide-menu {
+	margin-top: 0px;
+    margin-left: -250px;
+    left: 0;
+    width: 246.5px;
+    background: #4caf50;
+    position: fixed;
+    height: 100%;
+    overflow-y: auto;
+    z-index: -1;
+    font-family: Roboto,sans-serif;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    box-shadow: 1px 3px 5px #888888;
+}
+.navigation {
+    position: absolute;
+    top: 0;
+    width: 246.5px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+}
+.navigation li {
+    line-height: 30px;
+    text-indent: 20px;
+}
+.navigation li a {
+    color: #fff;
+    display: block;
+    padding: 20px 0;
+    text-decoration: none;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+.navigation li a:hover {
+    color: #fff;
+    background: #81c784;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.navigation li a:active,
+.navigation li a:focus {
+    text-decoration: none
+}
+
+.toggle {
+    margin: 5px 5px 0 0
+}
+a:link    {color:#000000; background-color:transparent; text-decoration:none}
+a:visited {color:#000000; background-color:transparent; text-decoration:none}
+a:hover   {color:#ff0000; background-color:transparent; text-decoration:underline}
+a:active  {color:#ff0000; background-color:transparent; text-decoration:underline}
+
+.imgcard1{
+    float: left;
+}
+#card2{
+    font-size: 14px;
+}
+.knop1,.knop2,
+.knop3,.knop4,
+.knop5,.knop6{
+    width: 100%;
+    height: 30px;
+    border: hidden;
+    background-color:  #EEEEEE;
+    margin-bottom: 0px;
+    padding: 6px;
+    letter-spacing: 1px;
+    text-align:center;
+    font-size: 25px;
+    display: inline-block;
+    
+}
+.knop1{margin-top:140px;}
+.knop2{margin-top:96px;}
+.knop3{margin-top:200px;}
+.knop4{margin-top:66px;}
+.knop5{margin-top:240px;}
+.knop6{margin-top:63px;}
