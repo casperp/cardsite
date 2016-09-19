@@ -5,9 +5,8 @@ body{
     color: rgb(79,79,79);
     -webkit-tap-highlight-color: rgba(0,0,0,0);
     font-family: Roboto;
-
-
 }
+
 header{
     width: 100%;
     height: 50px;
@@ -18,8 +17,8 @@ header{
     margin-top: -50px;
     word-spacing: 20;
     padding-left: 10px;
-
 }
+
 header .img_menu{
     width: 30px;
     height: 30px;
@@ -28,7 +27,7 @@ header .img_menu{
 
 
 #slide-menu {
-	margin-top: 0px;
+    margin-top: 0px;
     margin-left: -250px;
     left: 0;
     width: 246.5px;
@@ -43,6 +42,7 @@ header .img_menu{
     font-size: 20px;
     box-shadow: 1px 3px 5px #888888;
 }
+
 .navigation {
     position: absolute;
     top: 0;
@@ -52,10 +52,12 @@ header .img_menu{
     padding: 0;
     margin-top: 50px;
 }
+
 .navigation li {
     line-height: 30px;
     text-indent: 20px;
 }
+
 .navigation li a {
     color: #fff;
     display: block;
@@ -66,6 +68,7 @@ header .img_menu{
     -o-transition: all .3s ease-out;
     transition: all .3s ease-out;
 }
+
 .navigation li a:hover {
     color: #fff;
     background: #81c784;
@@ -81,7 +84,7 @@ header .img_menu{
 .toggle {
     margin: 5px 5px 0 0;
 }
-a:link       { color: rgb(79,79,79); background-color:transparent; text-decoration:none}
+a:link    { color: rgb(79,79,79); background-color:transparent; text-decoration:none}
 a:visited { color: rgb(79,79,79); background-color:transparent; text-decoration:none}
 a:hover   {color:#ff0000; background-color:transparent; text-decoration:underline}
 a:active  {color:#ff0000; background-color:transparent; text-decoration:underline}
@@ -94,9 +97,8 @@ a:active  {color:#ff0000; background-color:transparent; text-decoration:underlin
     overflow:hidden;
     border-radius: 3px;
     box-shadow: 1px 3px 5px #888888;
-      
-
 }
+
 .card h1 {
     margin:0px;
     padding:10px;
@@ -108,16 +110,17 @@ a:active  {color:#ff0000; background-color:transparent; text-decoration:underlin
     margin:0px;
     padding:15px;
 }
+
 .card {
-    margin-left: 4%;
+    margin: 4%;
     max-width: 700px;
     float:left;
     width:90%;  
     height:auto;
     padding: 10px;
     font-size:10px;
-    
 }
+
 .card-image .banner {
     height:50px;
     width:50px;
@@ -125,10 +128,10 @@ a:active  {color:#ff0000; background-color:transparent; text-decoration:underlin
     right:0px;
     background-position:top right;
     background-repeat:no-repeat;
-    background-image:url("");
     position:absolute;
     z-index: -1;
 }
+
 .card-image{
     position:absolute;
     bottom:0px;
@@ -139,29 +142,29 @@ a:active  {color:#ff0000; background-color:transparent; text-decoration:underlin
     padding:6px;
     border:none;
 }
+
 .tekst{
  padding:20px;
- padding-right: 40px;
-
+ padding-right:40px;
 }
 
 .tekstimg{
   padding: 10px;
-    margin-left: 5%;
-    margin-right: 5%;
-    height: auto;
-    max-height: 100%;
-    max-width: 100%;
-    
+  margin-left: 5%;
+  margin-right: 5%;
+  height: auto;
+  max-height: 100%;
+  max-width: 100%;
 }
+
 .where{
     margin-top: 10px;
     margin-left: 5%;
     float: left;
     font-size: 30px;
-     color: rgb(79,79,79);
-     
+    color: rgb(79,79,79);
 }
+
 #push{
     float: left;
 }
