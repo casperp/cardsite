@@ -93,32 +93,29 @@ a:active  {color:#ff0000; background-color:transparent; text-decoration:underlin
 .card {
     background:#FFF;
     padding:0px;
-    margin:15px;
     overflow:hidden;
-    border-radius: 3px;
+    border-radius: 4px;
     box-shadow: 1px 3px 5px #888888;
+    margin: 4%;
+    max-width:90%;
+    min-width:80%;
+    float:left;
+    width:90%;  
+    height:auto;
+    padding: 10px;
+    font-size:10px;
 }
 
 .card h1 {
     margin:0px;
     padding:10px;
     padding-bottom:0px;
-    font-size: 
+    font-color:blue;
 }
 
 .card p {
     margin:0px;
     padding:15px;
-}
-
-.card {
-    margin: 4%;
-    max-width:1000px;
-    float:left;
-    width:90%;  
-    height:auto;
-    padding: 10px;
-    font-size:10px;
 }
 
 .card-image .banner {
