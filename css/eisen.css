@@ -115,6 +115,7 @@ a:active  {color:#ff0000; background-color:transparent; text-decoration:underlin
     width:90%;  
     height:auto;
     padding: 10px;
+    font-size:10px;
     
 }
 .card-image .banner {
