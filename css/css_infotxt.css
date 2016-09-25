@@ -15,7 +15,7 @@ header{
     box-shadow: 1px 3px 5px #888888;
     position: fixed;
     z-index: 2;
-    margin-top: -10px;
+    margin-top: -50px;
     word-spacing: 20;
     padding-left: 10px;
 
@@ -89,70 +89,31 @@ a:active  {color:#ff0000; background-color:transparent; text-decoration:underlin
 
 .card {
     background:#FFF;
-    padding:0px;
-    margin:15px;
+    padding:2px;
+    margin:20px;
     overflow:hidden;
     border-radius: 3px;
     box-shadow: 1px 3px 5px #888888;
-      
+    max-width: 700px;
+    float:left;
+    width:70%;  
+    height:auto;
+    padding: 10px;  
 
 }
 .card h1 {
-    margin:0px;
+    margin:10px;
     padding:10px;
     padding-bottom:0px;
-    font-size: 
+    color: #2196ff;
+
 }
 
 .card p {
     margin:0px;
     padding:15px;
 }
-.card {
-    margin-left: 4%;
-    max-width: 700px;
-    float:left;
-    width:70%;  
-    height:auto;
-    padding: 10px;
-    
-}
-.card-image .banner {
-    height:50px;
-    width:50px;
-    top:0px;
-    right:0px;
-    background-position:top right;
-    background-repeat:no-repeat;
-    background-image:url("");
-    position:absolute;
-    z-index: -1;
-}
-.card-image{
-    position:absolute;
-    bottom:0px;
-    width:100%;
-    color:white;
-    background:rgba(0,0,0,0.65);
-    margin:0px;
-    padding:6px;
-    border:none;
-}
-.tekst{
- padding:20px;
- padding-right: 40px;
 
-}
-
-.tekstimg{
-  padding: 10px;
-    margin-left: 5%;
-    margin-right: 5%;
-    height: auto;
-    max-height: 100%;
-    max-width: 100%;
-    
-}
 .where{
     margin-top: 10px;
     margin-left: 5%;
@@ -163,4 +124,7 @@ a:active  {color:#ff0000; background-color:transparent; text-decoration:underlin
 }
 #push{
     float: left;
+}
+.text{
+    padding: 15px;
 }

@@ -92,7 +92,6 @@ a:active  {color:#ff0000; background-color:transparent; text-decoration:underlin
 
 .card {
     background:#FFF;
-    padding:0px;
     overflow:hidden;
     border-radius: 4px;
     box-shadow: 1px 3px 5px #888888;
