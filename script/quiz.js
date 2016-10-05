@@ -1,8 +1,8 @@
 (function() {
   var questions = [{
-    question: "What is 2*5?",
-    choices: [2, 5, 10, 15, 20],
-    correctAnswer: 2
+    question: "Het antwoord op de ultieme vraag over het Leven, het Universum, en Alles",
+    choices: [42, " Liefde", " Is er niet", 4, 54],
+    correctAnswer: 0
   }, {
     question: "What is 3*6?",
     choices: [3, 6, 9, 12, 18],
