@@ -96,14 +96,13 @@ a:active  {color:#ff0000; background-color:transparent; text-decoration:underlin
     border-radius: 4px;
     box-shadow: 1px 3px 5px #888888;
     margin: 4%;
-    max-width:98%;
-    min-width:90%;
-    float:left;
-    width:90%;  
-    height:auto;
+    float:left;  
     padding: 10px;
     font-size:14px;
+    height:auto;
+    height:370px;
 }
+
 
 .card h1 {
     margin:10px;
@@ -116,6 +115,7 @@ a:active  {color:#ff0000; background-color:transparent; text-decoration:underlin
 .card p {
     margin:15px;
     padding:10px;
+
 }
 
 .card-image .banner {
