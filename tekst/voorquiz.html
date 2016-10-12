@@ -1,7 +1,7 @@
 <!doctype html>
 <head>
    <title>Opleiding</title>
-   <link rel="stylesheet" type="text/css" href="../css/quiz.css">
+   <link rel="stylesheet" type="text/css" href="../css/voorquiz.css">
    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
    <meta charset="UTF-8">
    <meta name="viewport" content="initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=no; width=device-width" />
@@ -39,11 +39,17 @@
    <div id='title'>
    <h1>Bio-informatica quiz</h1>
    <h1>Wat voor diploma heb je?</h1>
-   <input id="two" type='button' value="Havo of Vwo met wiskunde A en/of B "onclick="return btntest_onclick()" />
-   <input id="btntest" type="button" value="Mbo 4" onclick="return_btntest_onclick()" />
-   <input id="btntest" type="button" value="Vmbo of lager als mbo 4 en onder de 21 jaar " onclick="return onclikfalse()" />
-   <input id="btntest" type="button" value="Havo of Vwo zonder wiskunde A of B en onder de 21 jaar" onclick="return onclikfalse()" />
-   <input id="btntest" type="button" value="Heb geen van de voorgaande antwoorden maar ben wel 21 jaar ouder. " onclick="return onclikfalse()" />
+   <lu style="list-style-type:none">
+    <li><input class="button" id="button" type='button' value="Havo of Vwo met wiskunde A en/of B "onclick="return btntest_onclick()" /></li>
+
+    <li><input class="button" id="button1" type="button" value="Mbo 4" onclick="btntest_onclick()" />
+
+    <li><input class="button" id="button2" type="button" value="Vmbo of lager als mbo 4 en onder de 21 jaar " onclick="return onclikfalse()" /></li>
+
+    <li><input class="button" id="button3" type="button" value="Havo of Vwo zonder wiskunde A of B en onder de 21 jaar" onclick="return onclikfalse()" /></li>
+
+   <li> <input  class="button" id="button4" type="button" value="Heb geen van de voorgaande antwoorden maar ben wel 21 jaar ouder. " onclick="return btntest_onclick()" /></li>
+	</lu>
    <script language="javascript" type="text/javascript">
       function btntest_onclick() 
       {
