@@ -1,24 +1,28 @@
 (function() {
   var questions = [{
-    question: "Het antwoord op de ultieme vraag over het Leven, het Universum, en Alles",
-    choices: [42, " Liefde", " Is er niet", 4, 54],
+    question: "Wil je later in een lab werken? ",
+    choices: ["ja","Nee"],
+    correctAnswer: 1
+  }, {
+    question: "Ben je bereid later 80% van je werktijd achter de computer te werken?",
+    choices: ["ja","Nee"],
     correctAnswer: 0
   }, {
-    question: "What is 3*6?",
-    choices: [3, 6, 9, 12, 18],
-    correctAnswer: 4
-  }, {
-    question: "What is 8*9?",
-    choices: [72, 99, 108, 134, 156],
+    question: "Ben je geïnteresseerd in de kleine onderdelen van de biologie zoals DNA, eiwitten en moleculen?",
+    choices: ["ja","Nee"],
     correctAnswer: 0
   }, {
-    question: "What is 1*7?",
-    choices: [4, 5, 6, 7, 8],
-    correctAnswer: 3
+    question: " Gaat samenwerken in groepsverband jouw goed af?",
+    choices: ["ja","Nee"],
+    correctAnswer: 0
   }, {
-    question: "What is 8*8?",
-    choices: [20, 30, 40, 50, 64],
-    correctAnswer: 4
+    question: "Lijkt het je leuk om computer progamma’s  te schrijven voor biologische problemen?",
+    choices: ["ja","Nee"],
+    correctAnswer: 0
+    }, {
+    question: "Ben je creatief ingesteld en kijk je kritisch naar je werk? ",
+    choices: ["ja","Nee"],
+    correctAnswer: 0
   }];
   
   var questionCounter = 0; //Tracks question number
