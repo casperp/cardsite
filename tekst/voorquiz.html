@@ -1,0 +1,59 @@
+<!doctype html>
+<head>
+   <title>Opleiding</title>
+   <link rel="stylesheet" type="text/css" href="../css/quiz.css">
+   <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=no; width=device-width" />
+</head>
+<header>
+   <div id="side">
+      <div id="slide-menu">
+         <ul class="navigation">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../html/opleiding.html">Opleiding</a></li>
+            <li><a href="../html/info.html">Vakgebied</a></li>
+            <li><a href="../html/disclamer.html">Disclamer</a></li>
+         </ul>
+      </div>
+      <div id="openblok">
+         <div id="push"><a href="#"><img class="img_menu" src="../Img/menu.png" alt="knop"></a></div>
+      </div>
+      <div class="where" ><a href="../html/quiz.html">Quiz</a> > De bio-informatica quiz </div>
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script>
+         $(document).ready(function () {
+         $('#push, #close').click(function () {
+         		var $navigacia = $('body, #slide-menu'),
+         				val = $navigacia.css('left') === '250px' ? '0px' : '250px';
+         		$navigacia.animate({
+         				left: val
+         		}, 300)	
+         });
+         });
+      </script>
+   </div>
+</header>
+<body>
+   <div id='container'>
+   <div id='title'>
+   <h1>Bio-informatica quiz</h1>
+   <h1>Wat voor diploma heb je?</h1>
+   <input id="two" type='button' value="Havo of Vwo met wiskunde A en/of B "onclick="return btntest_onclick()" />
+   <input id="btntest" type="button" value="Mbo 4" onclick="return_btntest_onclick()" />
+   <input id="btntest" type="button" value="Vmbo of lager als mbo 4 en onder de 21 jaar " onclick="return onclikfalse()" />
+   <input id="btntest" type="button" value="Havo of Vwo zonder wiskunde A of B en onder de 21 jaar" onclick="return onclikfalse()" />
+   <input id="btntest" type="button" value="Heb geen van de voorgaande antwoorden maar ben wel 21 jaar ouder. " onclick="return onclikfalse()" />
+   <script language="javascript" type="text/javascript">
+      function btntest_onclick() 
+      {
+          window.location.href = "quiz.html";
+      }
+      function onclikfalse()
+      {
+      window.location.href="quizfail.html"
+      }
+   </script>
+</html>
+</body>
+</html>

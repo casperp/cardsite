@@ -1,0 +1,22 @@
+<html>
+<input id="two" type='button' value="check2"
+		onclick="return btntest_onclick()" />
+<input id="btntest" type="button" value="Check3" 
+       onclick="return btntest_onclick()" />
+<input id="btntest" type="button" value="Check4" 
+       onclick="return onclikfalse()" />
+<input id="btntest" type="button" value="Check" 
+       onclick="return onclikfalse()" />
+
+
+<script language="javascript" type="text/javascript">
+function btntest_onclick() 
+{
+    window.location.href = "http://www.google.com";
+}
+function onclikfalse()
+{
+	window.location.href= "http://www.facebook.com";
+}
+</script>
+</html>
