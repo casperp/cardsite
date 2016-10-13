@@ -78,18 +78,9 @@ li{
 
 
 .image1 {
-    background-image: url("../img/ubuntuphone1.png");
-    
+    background-image: url("../Img/epigenomics.jpg");
+}
 
-}
-.image2{
-    background-image: url("../img/linux4.png");
-    
-    
-}
-.image3{
-    background-color: #F44336
-}
 .card-image .banner {
     height:45px;
     width:50px;
