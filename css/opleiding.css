@@ -79,19 +79,6 @@ li{
 }
 
 
-.image1 {
-    background-image: url("../img/Archos.png");
-    height: 170px;
-}
-.image2{
-    background-image: url("../img/onetouch.png");   
-}
-.image3{
-    background-image: url("../img/htc.png");
-}
-.image{
-    
-}
 .card1{ font-size: 25px;}
 .card2{font-size:18px}
 .card3{font-size: 18px}
@@ -236,7 +223,8 @@ a:active  {color:#ff0000; background-color:transparent; text-decoration:underlin
 .knop4:hover,.knop4:focus,
 .knop5:hover,.knop5:focus,
 .knop6:hover,.knop6:focus{
-background-color: #EAEAEA;
+background-color: #EAEAEA;}
+
 .knop1{margin-top:140px;}
 .knop2{margin-top:96px;}
 .knop3{margin-top:200px;}
