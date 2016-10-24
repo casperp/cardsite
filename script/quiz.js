@@ -23,6 +23,11 @@
     question: "Ben je creatief ingesteld en kijk je kritisch naar je werk? ",
     choices: ["ja","Nee"],
     correctAnswer: 0
+  },{
+    question: " Heb je de volgende eigenschappen ? ",
+    choices: ["Ik ben kritisch en creatief", "ik ben kritisch maar niet creatief",
+    "ik ben creatief maar niet kritisch","ik ben niet kritisch en niet creatief" ],
+    correctAnswer: 0
   }];
   
   var questionCounter = 0; //Tracks question number
@@ -91,7 +96,7 @@
       id: 'question'
     });
     
-    var header = $('<h2>Question ' + (index + 1) + ':</h2>');
+    var header = $('<h2>Vraag ' + (index + 1) + ':</h2>');
     qElement.append(header);
     
     var question = $('<p>').append(questions[index].question);
@@ -164,8 +169,8 @@
       }
     }
     
-    score.append('You got ' + numCorrect + ' questions out of ' +
-                 questions.length + ' right!!!');
+    score.append('Je hebt ' + numCorrect + ' vragen van de ' +
+                 questions.length + ' goed !');
     return score;
   }
 })();
