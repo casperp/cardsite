@@ -89,7 +89,7 @@ a:active  {color:#ff0000; background-color:transparent; text-decoration:underlin
 .card {
     background:#FFF;
     padding:0px;
-    margin:15px;
+
     overflow:hidden;
     border-radius: 3px;
     box-shadow: 1px 3px 5px #888888;
@@ -114,6 +114,7 @@ a:active  {color:#ff0000; background-color:transparent; text-decoration:underlin
     width:70%;  
     height:auto;
     padding: 10px;
+    margin:30px;
     
 }
 .card-image .banner {
