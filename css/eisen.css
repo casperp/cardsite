@@ -100,7 +100,8 @@ a:active  {color:#ff0000; background-color:transparent; text-decoration:underlin
     padding: 10px;
     font-size:14px;
     height:auto;
-    height:370px;
+    width: 66%;
+    max-width: 600px;
 }
 
 
