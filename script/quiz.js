@@ -160,7 +160,7 @@
 	  
 	  // Computes score and returns a paragraph element to be displayed
 	  function displayScore() {
-		var score = $('<p>' + {id: 'question'});
+		var score = $('<p>' , {id: 'question'});
 		
 		var numCorrect = 0;
 		for (var i = 0; i < selections.length; i++) {
@@ -171,11 +171,11 @@
 		score.append('Je hebt ' + numCorrect + ' vragen van de ' +
 					 questions.length + ' goed !');
 		if (numCorrect <= 2){
-			score.append('<br>' + " Het is mischien slim om nog meer inforamtie te zoeken over bio-informatici, want je weet niet goed wat deze opleiding inhoud.");
+			score.append('<br><br>' + " Het is mischien slim om nog meer inforamtie te zoeken over bio-informatici, want je weet niet goed wat deze opleiding inhoud.");
 		} else if (numCorrect <= 5){
-			score.append("<br>" + " Je heb een redelijk beeld van wat een bio-informatici doet, het is altijd handig om meer inforamtie te krijgen over dit vak." + '<br>' + "Dat kan je vinden op internet of op een open dag.");
+			score.append("<br><br>" + " Je heb een redelijk beeld van wat een bio-informatici doet, het is altijd handig om meer inforamtie te krijgen over dit vak." + '<br>' + "Dat kan je vinden op internet of op een open dag.");
 		} else{
-			score.append('<br>' + " Jij weet goed wat bio-inforamtica inhoud, het is mischien leuk om eeen keer een ...dag mee te doen.");
+			score.append('<br><br>' + " Jij weet goed wat bio-inforamtica inhoud, het is mischien leuk om eeen keer een proefstuderen mee te doen.");
 		}
 		return score;
 	  }
