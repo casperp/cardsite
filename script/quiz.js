@@ -175,7 +175,7 @@
 		} else if (numCorrect <= 5){
 			score.append("<br><br>" + " Je heb een redelijk beeld van wat een bio-informatici doet, het is altijd handig om meer inforamtie te krijgen over dit vak." + '<br>' + "Dat kan je vinden op internet of op een open dag.");
 		} else{
-			score.append('<br><br>' + " Jij weet goed wat bio-inforamtica inhoud, het is mischien leuk om eeen keer een proefstuderen mee te doen.");
+			score.append('<br><br>' + " Jij weet goed wat bio-inforamtica inhoud, het is mischien leuk om een keer een proefstuderen mee te doen.");
 		}
 		return score;
 	  }
