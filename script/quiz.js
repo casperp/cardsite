@@ -16,7 +16,7 @@
 		choices: ["ja","Nee"],
 		correctAnswer: 0
 	  }, {
-		question: "Lijkt het je leuk om computer progamma’s  te schrijven voor biologische problemen?",
+		question: "Ben je redelijk goed of goed in wiskunde of logisch bredeneren?",
 		choices: ["ja","Nee"],
 		correctAnswer: 0
 		}, {
@@ -24,10 +24,10 @@
 		choices: ["ja","Nee"],
 		correctAnswer: 0
 	  },{
-		question: " Heb je de volgende eigenschappen ? ",
-		choices: ["Ik ben kritisch en creatief", "ik ben kritisch maar niet creatief",
-		"ik ben creatief maar niet kritisch","ik ben niet kritisch en niet creatief" ],
-		correctAnswer: 0
+		question: " Wat voor computer progamma’s verwacht je te schrijven?",
+		choices: ["Voor hoe je een verzekering kantoor kan helpen hun verzekeringen te ordenen", "Voor game software bedrijven",
+		"Voor biologische problemen"],
+		correctAnswer: 2
 	  }];
 	  
 	  var questionCounter = 0; //Tracks question number
