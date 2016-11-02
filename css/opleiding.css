@@ -1,4 +1,4 @@
-body{
+	body{
     background-color: #EEEEEE;
     margin-top: 50px;
     margin-left: 0px;
@@ -226,7 +226,7 @@ a:active  {color:#ff0000; background-color:transparent; text-decoration:underlin
 background-color: #EAEAEA;}
 
 .knop1{margin-top:223px;}
-.knop2{margin-top:160px;}
+.knop2{margin-top:123px;}
 .knop3{margin-top:223px;}
 .knop4{margin-top:66px;}
 .knop5{margin-top:240px;}

@@ -49,6 +49,8 @@ li{
     margin:0px;
     padding:10px;
     padding-bottom:0px;
+	border-bottom: 3px solid black;
+    display: inline-block;
 }
 
 .card p {
@@ -206,6 +208,7 @@ li{
     border: hidden;
     background-color:  #EEEEEE;
     margin-bottom: 0px;
+	margin-top:40%;
     padding: 6px;
     letter-spacing: 1px;
     text-align:center;
