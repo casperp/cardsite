@@ -120,19 +120,19 @@ li{
     background-image: url("../Img/Biological_vs._digital_information.jpg");
 }
 .image2 {
-    background-image: url("../Img/transcriptomics.jpg");
+    background-image: url("../Img/blank.jpg");
 }
 .image3 {
-    background-image: url("../Img/epigenomics.jpg");
+    background-image: url("../Img/blank.jpg");
 }
 .image4 {
-    background-image: url("../Img/epigenomics.jpg");
+    background-image: url("../Img/.jpg");
 }
 .image5 {
     background-image: url("../Img/metabolomics.png");
 }
 .image6 {
-    background-image: url("../Img/epigenomics.jpg");
+    background-image: url("../Img/.jpg");
 }
 .float-left .card {
     float:left;
@@ -248,11 +248,11 @@ li{
 .knop4:hover,.knop4:focus,
 .knop5:hover,.knop5:focus,
 .knop6:hover,.knop6:focus{
-background-color: #EAEAEA;
+background-color: #EAEAEA;	
 }
-.knop1{margin-top:10px}
-.knop2{margin-bottom:-30px}
-.knop3{margin-bottom:-30px}
-.knop4{margin-bottom:-30px}
-.knop5{margin-bottom:-30px}
-.knop6{margin-bottom:-30px}
+.knop1{margin-top:80px}
+.knop2{margin-top:60px}
+.knop3{margin-top:20px}
+.knop4{margin-top:0px}
+.knop5{margin-top:60px}
+.knop6{margin-top:60px}

@@ -79,7 +79,7 @@ li{
 
 
 .image1 {
-    background-image: url("../Img/epigenomics.jpg");
+    background-image: url("../Img/blank.jpg");
 }
 
 .card-image .banner {
@@ -209,12 +209,12 @@ li{
 .knop6:hover,.knop6:focus{
 background-color: #EAEAEA;
 }
-.knop1{margin-top:230px;}
-.knop2{margin-top:80px;}
-.knop3{margin-top:100px;}
-.knop4{margin-top:130px;}
-.knop5{margin-top:230px;}
-.knop6{margin-top:230px;}
+.knop1{margin-top:105px;}
+.knop2{margin-top:55px;}
+.knop3{margin-top:105px;}
+.knop4{margin-top:105px;}
+.knop5{margin-top:105px;}
+.knop6{margin-top:105px;}
 
 .where{
     position: absolute;
