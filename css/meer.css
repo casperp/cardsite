@@ -114,65 +114,6 @@ float:left;
     padding:6px;
     border:none;
 }
-@media screen and (min-width: 768px) {
-.card{
-    float:left;
-    width:300px;  
-    height:300px;
-}
-.knop1{margin-top:0px;
-height: 20px;}
-.knop2{margin-top:33px;}
-.knop3{margin-top:160px;}
-.knop4{margin-top:33px;}
-.knop5{margin-top:140px;}
-.knop6{margin-top:33px;}
-
-}
-@media screen and (max-width: 768px) {
-.card{
-    float:left;
-    width:300px;  
-    height:300px;
-}
-.knop1{margin-top:0px;
-height: 20px}
-.knop2{margin-top:33px;}
-.knop3{margin-top:160px;}
-.knop4{margin-top:33px;}
-.knop5{margin-top:140px;}
-.knop6{margin-top:33px;}
-
-}
-@media screen and (min-width: 970px) {
-.card {
-    float:left;
-   width:420px;  
-    height:390px;
-}
-.knop1{margin-top:140px;}
-.knop2{margin-top:33px;}
-.knop3{margin-top:160px;}
-.knop4{margin-top:33px;}
-.knop5{margin-top:140px;}
-.knop6{margin-top:33px;}
-
-}
-@media screen and (min-width: 1170px) {
-.card {
-    float:left;
-   width:420px;  
-    height:390px;
-}
-.knop1{margin-top:140px;}
-.knop2{margin-top:33px;}
-.knop3{margin-top:160px;}
-.knop4{margin-top:33px;}
-.knop5{margin-top:140px;}
-.knop6{margin-top:33px;}
-
-}
-
 
 
 
@@ -245,4 +186,4 @@ height: 20px}
     display: inline-block;
     
 }
-.knop1{margin-top:95px;}
+.knop1{margin-top: 240px;}

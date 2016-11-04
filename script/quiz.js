@@ -16,7 +16,7 @@
 		choices: ["ja","Nee"],
 		correctAnswer: 0
 	  }, {
-		question: "Ben je redelijk goed of goed in wiskunde of logisch bredeneren?",
+		question: "Ben je redelijk goed of goed in wiskunde of logisch beredeneren?",
 		choices: ["ja","Nee"],
 		correctAnswer: 0
 		}, {
@@ -24,8 +24,8 @@
 		choices: ["ja","Nee"],
 		correctAnswer: 0
 	  },{
-		question: " Wat voor computer progamma’s verwacht je te schrijven?",
-		choices: ["Voor hoe je een verzekering kantoor kan helpen hun verzekeringen te ordenen", "Voor game software bedrijven",
+		question: " Wat voor computerprogamma’s verwacht je te schrijven?",
+		choices: ["Voor hoe je een verzekeringkantoor kunt helpen hun verzekeringen te ordenen", "Voor game software bedrijven",
 		"Voor biologische problemen"],
 		correctAnswer: 2
 	  }];
@@ -175,7 +175,7 @@
 		} else if (numCorrect <= 5){
 			score.append("<br><br>" + " Je heb een redelijk beeld van wat een bio-informatici doet, het is altijd handig om meer inforamtie te krijgen over dit vak." + '<br>' + "Dat kan je vinden op internet of op een open dag.");
 		} else{
-			score.append('<br><br>' + " Jij weet goed wat bio-inforamtica inhoud, het is mischien leuk om een keer een proefstuderen mee te doen.");
+			score.append('<br><br>' + " Jij weet goed wat bio-informatica inhoudt, het is mischien leuk om een keer met een proefstuderen dag mee te doen.");
 		}
 		return score;
 	  }
